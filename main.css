@@ -50,8 +50,7 @@ main {
   font-size: 2rem;
   color: #8dc63f;
   text-decoration: none;
-  transition: font-weight .1s ease-in;
-  transition: font-size .2s ease-in;
+  transition: font-weight .1s ease-in, font-size .2s ease-in;
 }
 
 .company:hover {
@@ -76,13 +75,11 @@ main {
   color: white;
   width: 3.5rem;
   height: 3.5rem;
-  transition: width .2s ease-in;
-  transition: height .2s ease-in;
+  transition: transform .2s ease-in;
 }
 
 .social-media:hover {
-  width: 3.8rem;
-  height: 3.8rem;
+  transform: scale(1.2);
 }
 
 .infos {

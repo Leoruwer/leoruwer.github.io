@@ -53,8 +53,13 @@ html {
   transition: font-weight .1s ease-in, font-size .2s ease-in;
 }
 
-.company-color {
+.company-color-primary {
   color: #ef4444;
+}
+
+.company-color-secondary {
+  text-shadow: 0 0 2px black;
+  color: white;
 }
 
 .company:hover {

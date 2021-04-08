@@ -45,13 +45,16 @@ html {
   font-size: 2rem;
 }
 
-.company {
+.company-text {
   width: 18rem;
   height: 4rem;
   font-size: 2rem;
-  color: #8dc63f;
   text-decoration: none;
   transition: font-weight .1s ease-in, font-size .2s ease-in;
+}
+
+.company-color {
+  color: #ef4444;
 }
 
 .company:hover {

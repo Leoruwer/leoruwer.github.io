@@ -54,12 +54,13 @@ html {
 }
 
 .company-color-primary {
-  color: #ef4444;
+  text-shadow: 0 0 2px black;
+  color: #515153;
 }
 
 .company-color-secondary {
   text-shadow: 0 0 2px black;
-  color: white;
+  color: #000000;
 }
 
 .company:hover {
